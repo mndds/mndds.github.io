@@ -347,18 +347,30 @@
         }  
     }
 
-    &__icon{
+    &__icon{        
         &_map{            
-            padding: auto;
+            height: 144px;  
+            img{
+                padding-top: 30px ;
+            }        
         }
-        &_binocular{            
-            padding: auto;
+        &_binocular{          
+            height: 144px; 
+            img{
+                padding-top: 44px ;
+            }       
         }
         &_backpack{            
-            padding: auto;
+            height: 144px; 
+            img{
+                padding-top: 44px ;
+            }   
         }
         &_ukelele{            
-            padding: auto;
+            height: 144px; 
+            img{
+                padding-top: 44px ;
+            }    
         }                
     }
 
